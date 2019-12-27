@@ -5,7 +5,7 @@ authors = ["Richard Anaya"]
 edition = "2018"
 description = "A library for enabling syntax highlighting"
 license = "MIT OR Apache-2.0"
-categories = ["syntax", "no-std"]
+categories = ["ide", "no-std"]
 repository = "https://github.com/richardanaya/highlight"
 readme="README.md"
 
