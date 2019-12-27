@@ -1,5 +1,7 @@
 #![no_std]
 
+pub use anystring::anystring;
+
 #[macro_export]
 macro_rules! js {
     ($($x:tt)*) => {
