@@ -1,12 +1,12 @@
 [package]
-name = "syntax"
+name = "highlight"
 version = "0.0.0"
 authors = ["Richard Anaya"]
 edition = "2018"
 description = "A library for enabling syntax highlighting"
 license = "MIT OR Apache-2.0"
 categories = ["syntax", "no-std"]
-repository = "https://github.com/richardanaya/syntax"
+repository = "https://github.com/richardanaya/highlight"
 readme="README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
