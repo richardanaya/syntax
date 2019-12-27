@@ -6,7 +6,7 @@ pub use anystring::anystring;
 macro_rules! js {
     ($($x:tt)*) => {
         {
-        register_function(anystring!($($x)*))
+        anystring!($($x)*)
         }
     };
 }
@@ -24,7 +24,7 @@ macro_rules! html {
 macro_rules! css {
     ($($x:tt)*) => {
         {
-        register_function(anystring!($($x)*))
+        anystring!($($x)*)
         }
     };
 }
@@ -33,7 +33,7 @@ macro_rules! css {
 macro_rules! sql {
     ($($x:tt)*) => {
         {
-        register_function(anystring!($($x)*))
+        anystring!($($x)*)
         }
     };
 }
